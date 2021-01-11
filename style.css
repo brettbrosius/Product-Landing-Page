@@ -1,0 +1,87 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+ul li {
+    list-style: none;
+}
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+button {
+    background: rgb(99, 99, 99);
+    color:white;
+    padding: 20px;
+    border: 0px;
+    font-size: 18px;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+.layout {
+    display: flex;
+}
+.layout.horizontal {
+    flex-direction: row;
+}
+.layout.horizontal.img {
+    flex-grow: 1;    
+}
+.p1 {
+    padding: 10px;
+}
+.topnav {
+    border-bottom: 1px lightgray solid;
+    font-size: 22px;
+}
+.logo {
+    flex-grow: 1;
+}
+.menu {
+    flex-grow: 2;
+    justify-content: flex-end;
+}
+.menu li {
+    margin-left: 20px;
+}
+.breadcrumb {
+    justify-content: flex-start;
+    font-size: 18px;
+}
+.breadcrumb li {
+    margin-right: 10px;
+}
+.img {
+    min-height: 10px;
+    min-width: 10px;
+    background-size: cover;
+}
+.w-50 {
+    width: 50%;
+}
+.main-img {
+    height: 350px;
+    background-size: cover;
+}
+.gallery .img {
+    height: 150px;
+    width: 200px;
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.layout .horizontal .img:first-child {
+    margin-left: 0px;
+}
+.product-info .product-title{
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+}
+span{
+    font-size: 30px;
+}
+.description p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
